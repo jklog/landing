@@ -3662,20 +3662,37 @@ select[multiple].input-lg,
 
 .btn-primary {
   color: #fff;
-  background-color: #5C6BC0;
-  border-color: #5C6BC0;
+/*  background-color: #5C6BC0;
+
+  border-color: #5C6BC0;*/
+
+    background-color: #FDC207;
+    
+    border-color: #FDC207;
+  }
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #4150a8;
-  border-color: #3e4da1;
+  
+  /*background-color: #4150a8;
+  border-color: #3e4da1;*/
+  
+  background-color: #a9a9a9;
+  border-color: #a9a9a9;
+
+
 }
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   background-image: none;
 }
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-  background-color: #5C6BC0;
-  border-color: #5C6BC0;
+
+  background-color: #a9a9a9;
+  border-color: #a9a9a9;	
+	
+  /*background-color: #5C6BC0;
+  border-color: #5C6BC0;*/
+  
 }
 .btn-primary .badge {
   color: #5C6BC0;
@@ -7331,8 +7348,12 @@ h1, h2, h3 {
 .btn-group.btn-floating.btn-primary:active,
 .btn-group.btn-floating.btn-primary.active, .open >
 .btn-group.btn-floating.btn-primary.dropdown-toggle {
-  background-color: #4a5ab9;
-  border-color: #4a5ab9;
+	
+  /*background-color: #4a5ab9;
+  border-color: #4a5ab9;*/
+  	
+  background-color: #a9a9a9;
+  border-color: #a9a9a9;
 }
 .btn.btn-raised.btn-info:hover, .btn.btn-raised.btn-info:focus, .btn.btn-raised.btn-info.focus, .btn.btn-raised.btn-info:active, .btn.btn-raised.btn-info.active, .open > .btn.btn-raised.btn-info.dropdown-toggle, .btn.btn-floating.btn-info:hover, .btn.btn-floating.btn-info:focus, .btn.btn-floating.btn-info.focus, .btn.btn-floating.btn-info:active, .btn.btn-floating.btn-info.active, .open > .btn.btn-floating.btn-info.dropdown-toggle,
 .btn-group.btn-raised.btn-info:hover,
@@ -7945,9 +7966,12 @@ h1, h2, h3 {
   line-height: 74px;
   padding: 0;
   border-radius: 50%;
-  border: 3px solid #5C6BC0;
+  /*border: 3px solid #5C6BC0;*/
+  border: 3px solid #a9a9a9;
+  
   font-size: 35px;
-  color: #5C6BC0;
+  color: #FDC207;
+  /*color: #5C6BC0;*/
 }
 .features .feature-item .icon-container .md {
   vertical-align: middle;
